@@ -13,6 +13,10 @@ public class EcommerceApplication {
 		SpringApplication.run(EcommerceApplication.class, args);
 	}
 
+	
+	
+	
+	
 	@GetMapping("/")
 	public String getName() {
 		return "Hello from cloud";
